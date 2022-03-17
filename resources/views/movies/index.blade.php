@@ -11,6 +11,5 @@
         <h6>{{ $movie->vote }}</h6>
     @empty
         <h2>Non ci sono film</h2>
-    @endempty
-@endforelse
+    @endforelse
 @endsection
